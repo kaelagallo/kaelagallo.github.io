@@ -1,0 +1,35 @@
+body {
+	color:#22474F;
+}
+
+h1 {
+	font-family: 'Leckerli One', cursive;
+	color:#22474F;
+}
+
+p {
+	font-family: 'News Cycle', sans-serif;
+	text-align:center;
+	width: 650px; 
+	margin: 0 auto;
+}
+
+img {
+	border: solid 4px white;
+	margin-bottom: 25px;
+}
+
+a { 
+	color:#22474F;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #8F998C;
+}
+
+#wrapper {
+	text-align:center;
+	width: 1000px;
+	margin: 0 auto;
+}
