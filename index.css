@@ -1,22 +1,23 @@
 body {
-	color:#22474F;
+	color:#494949;
 }
 
 h1 {
 	font-family: 'Leckerli One', cursive;
-	color:#22474F;
+	font-size: 40px;
 }
 
 p {
 	font-family: 'News Cycle', sans-serif;
-	text-align:center;
+	text-align:left;
 	width: 650px; 
 	margin: 0 auto;
 }
 
 img {
-	border: solid 4px white;
+	border: solid 3px white;
 	margin-bottom: 25px;
+	padding-bottom: -50px;
 }
 
 a { 
@@ -28,8 +29,15 @@ a:visited {
 	color: #8F998C;
 }
 
-#wrapper {
-	text-align:center;
-	width: 1000px;
-	margin: 0 auto;
+#left {
+float: left;
+clear:both;
+padding: 50px 10px 0px 50px;
+}
+
+#right {
+	clear:both;
+	position: absolute;
+	left:420px;
+	top:120px;
 }
