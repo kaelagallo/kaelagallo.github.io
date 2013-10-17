@@ -15,7 +15,6 @@ p {
 }
 
 img {
-	border: solid 3px white;
 	margin-bottom: 25px;
 	padding-bottom: -50px;
 }
@@ -40,4 +39,8 @@ padding: 50px 10px 0px 50px;
 	position: absolute;
 	left:420px;
 	top:120px;
+}
+
+#border {
+	padding-top: 25px;
 }
