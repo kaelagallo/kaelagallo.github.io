@@ -5,16 +5,19 @@ body {
 }
 
 header {
-	height: 250px;
+	height: 300px;
 	background-image: url(coffee_beans.jpg);
 }
 
 h1 {
-	color: #230b03;
+	line-height: 80%;
+	margin: 0px;
 }
 
 h2 {
-	color: #230b03;
+	font-size: 130%;
+	color: #372014;
+	font-family: Helvetica , sans-serif;
 }
 
 p {
@@ -22,34 +25,64 @@ p {
 }
 
 nav {
-	height:20px;
+	height:25px;
 	background-color: #230b03;
+	clear:both;
+	position: relative;
 }
 
 nav li {
-	font-family: serif;
-	color: #b78c6c;
+	font-family: Georgia, serif;
+	color: #af7c54;
 	display: inline-block;
-	text-align:justify;
-	padding-right: 25px;
+	text-align: justify;
+	padding-right: 20px;
+	vertical-align: baseline;
+	padding-top:3px;
+}
+
+section {
+	padding-top: 25px;
+	padding-bottom: 300px;
+}
+
+section p {
+	font-size: 13px;
+	width: 70%;
+	margin: auto;
+	font-family: Georgia, serif;
 }
 
 footer {
-	height:50px;
-	color: #b78c6c;
+	height: 75px;
 	background-color: #230b03;
-	font-family: serif;
+	clear:both;
 }
 
-#dream {
-	font-family: 'Leckerli One', cursive;
-	color: #b78c6c;
+footer p {
+	color: #af7c54;
+	font-family: Georgia, serif;
+	font-size: 90%;
+	position:relative;
+	top: 25%;
 }
 
-#beans {
-	font-family: 'Jockey One', sans-serif;
-	color: #b78c6c;
-	font-size: 25px;
-	margin-top: -20px;
-	margin-bottom: 40px;
+#beans img {
+	height:225px;
+}
+
+#left {
+	width:50%;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	float:left;
+}
+
+#right {
+	width:50%;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	float:right;
 }
