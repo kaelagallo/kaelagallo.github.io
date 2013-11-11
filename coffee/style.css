@@ -41,6 +41,11 @@ nav li {
 	padding-top:3px;
 }
 
+nav li a {
+	text-decoration: none;
+	color: #af7c54;
+}
+
 section {
 	padding-top: 25px;
 	padding-bottom: 300px;
