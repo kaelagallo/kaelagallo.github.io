@@ -24,6 +24,10 @@ nav li {
 	margin-top: .5%
 }
 
+nav li a{
+	color: black;
+}
+
 h1 {
 font-family: 'league_gothicregular', sans-serif;
 text-transform: uppercase;
