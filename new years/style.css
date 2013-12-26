@@ -1,0 +1,48 @@
+body { 
+	margin: 0 auto;
+	width: 50%;
+	font-family: 'Karla', sans-serif;
+	padding: 2%;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	text-align:center;
+	color: #293555;
+}
+
+p {
+}
+
+ul {
+	list-style-type: none;
+}
+
+form {
+	background-color: #f3ffe5; 
+	box-shadow: 5px 5px 10px #888;
+	padding: 10px;
+	font-family: 'Rock Salt', cursive;
+}
+
+#description {
+	text-align: center;
+}
+
+#info p {
+}
+
+#submit {
+	margin: 0 auto;
+	background-color: #e5c110; 
+	width: 150px;
+	box-shadow: 5px 5px 10px #888;
+}
+
+#submit.hover {
+	background-color: #ffdc30;
+}
+
+input {
+	width: 75%;
+}
